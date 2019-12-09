@@ -79,16 +79,4 @@ for j in range(len(data)):
 #colors.count("#ffffff")
 data['colors'] = colors
 data.to_csv("plottable.csv", sep=',',index=True)
-"""
-done-create a column which is common between df['GEOID'] and df_pop_county$fips
-done-for the values which are not in df['GEOID'] search their cooridinates in web.
-done-then I'll have a df['GEOID'] which is substituted for df_pop_county
-done-then plot the data with random values
-done-then associate points to each coordinate by creating a dictionary each of its keys has a list of values.
-done-then find out the mean value of diff for each of the counties
-done-and substitute these actual values with those random values
-find out the colors of each value
-now you need to get the predicted values. these values would be plotted this time.
-then it is good to plot train/validate/test points and their heat maps as well
-do this both for year 2000, 2010 and features income and population.
-"""
+
